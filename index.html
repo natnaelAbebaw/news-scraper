@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, sans-serif;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        padding: 8px 4rem;
+        background-color: #007bff;
+        gap: 5rem;
+      }
+
+      header form {
+        display: flex;
+        gap: 1rem;
+        width: 100%;
+      }
+
+      header form input {
+        padding: 12px 2rem;
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+      }
+      header div {
+        font-family: "Protest Riot", sans-serif;
+        font-size: 2.4rem;
+        color: #fff;
+      }
+
+      header form button {
+        padding: 5px;
+        font-size: 1.4rem;
+        border: none;
+        border-radius: 5px;
+        background-color: #edf6ff;
+        color: #007bff;
+        font-family: "Protest Riot", sans-serif;
+        cursor: pointer;
+      }
+      main {
+        padding: 1rem;
+        background-color: #edf6ff;
+        height: 80vh;
+      }
+      .box {
+        width: 80%;
+        margin: 2rem auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        height: 90vh;
+        border-radius: 8px;
+        overflow: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <header>
+        <div>fastNews</div>
+        <form action="search" method="get">
+          <input name="searchQuery" type="text" placeholder="Search news" />
+          <button>Search</button>
+        </form>
+      </header>
+      <main>
+       
+      </main>
+    </div>
+  </body>
+</html>
